@@ -20,7 +20,7 @@ public class SWEA_Solution_1210_Ladder1_D4_한지혜 {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(Arrays.toString(arr[i]));
 		}
-		System.out.println(y);//도착점의 위치->10
+		System.out.println("arr["+x+"],["+y+"]="+arr[x][y]);//도착점의 위치->10
 		x--;//9
 		for (int i = 0; i < 100 ; i++) {
 			if(arr[x-1][y] == 1) x--;
