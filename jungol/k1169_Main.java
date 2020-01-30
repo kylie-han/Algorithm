@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class k1169_Main{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int m = sc.nextInt();
+		int n = sc.nextInt();//주사위 던질 횟수
+		int m = sc.nextInt();//1or2or3
 		int[] dice = {1,2,3,4,5,6};
-		int[] arr = new int[n+1];
+		int[] arr = new int[n+1];//던져나온값저장
 		switch (m) {
 		case 1:
 			m1(n,arr,1);
@@ -34,7 +34,7 @@ public class k1169_Main{
 			}
 		}
 	}//end of m1
-	public static void m2(int num, int[] a,int index) {
+	public static void m2(int num, int[] a,int index) {//중복되지 않는 조합 출력
 		if (num<=0) {//출력
 			for (int i = 1; i < a.length; i++) {
 				System.out.print(a[i]+" ");
@@ -48,7 +48,7 @@ public class k1169_Main{
 			}
 		}
 	}//end of m2
-	public static void m3(int num, int[] a,int index) {
+	public static void m3(int num, int[] a,int index) {// 다른 숫자의 조합
 		if (num<=0) {//출력
 			for (int i = 1; i < a.length; i++) {
 				System.out.print(a[i]+" ");

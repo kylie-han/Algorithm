@@ -20,6 +20,7 @@ public class GameTest {
 		int lose = 0;
 		for (int testCase = 0; testCase < TC; testCase++) {
 			int com = (int)(Math.random()*3)+1; 
+			System.out.println(com);
 			System.out.print("가위바위보 중 하나 입력 :");
 			String hand = sc.next();
 			int han = 0;
@@ -29,10 +30,16 @@ public class GameTest {
 			//
 			if(com==han) {
 				System.out.println("비겼습니다");
-			}else if(com > han) {
+			}else if (com == 3 && han == 1) {
+				System.out.println("이겼습니다!!!!!!!!");
+				lose++;
+			}else if (han == 3 && com == 1) {
+				System.out.println("졌습니다ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ");
+				win++;
+			}else if(com > han&&(han != 3 && com != 1)) {
 				System.out.println("졌습니다ㅠ");
 				lose++;
-			}else if(com < han) {
+			}else if(com < han&&(com != 3 && han != 1)) {
 				System.out.println("이겼습니다!!");
 				win++;
 			}

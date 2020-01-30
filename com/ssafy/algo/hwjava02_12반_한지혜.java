@@ -62,14 +62,15 @@ public class hwjava02_12반_한지혜 {
 						live--;
 						break;
 					}else {
-					//없으면 원래 위치에 0입력, 이동한 위치에 소금쟁이 번호 체크
+					//없으면 원래 위치에 0입력(입력한 적이 없으므로 0일것),
+					// 이동한 위치에 소금쟁이 번호 체크(3번까지 안전하게 뛰었을 경우만 도착한 위치에 입력
 						if(j==1)pond[s_row][s_col] = i;
 					}
 				}
 			}
-			for (int i = 0; i < pond.length; i++) {
-				System.out.println(Arrays.toString(pond[i]));
-			}
+//			for (int i = 0; i < pond.length; i++) {
+//				System.out.println(Arrays.toString(pond[i]));
+//			}
 			System.out.println("#"+testCase+" "+live);
 		}//end of for tc
 	}//end of main

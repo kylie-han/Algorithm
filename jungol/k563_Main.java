@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-
+//n개의 입력된 데이터를 내림차순으로 정렬한다.
 public class k563_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
