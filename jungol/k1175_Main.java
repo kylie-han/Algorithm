@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class 정올_Main_1175_주사위던지기2_한지혜 {
+public class k1175_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();//주사위 던지는 횟수

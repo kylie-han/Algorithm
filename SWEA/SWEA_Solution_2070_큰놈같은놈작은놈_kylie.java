@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_2070_Å«³ğ°°Àº³ğÀÛÀº³ğ_kylie {
+public class SWEA_Solution_2070_Å«³ğ°°Àº³ğÀÛÀº³ğ_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();

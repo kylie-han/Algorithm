@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class 정올_Main_1169_주사위던지기1_한지혜 {
+public class k1169_Main{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();

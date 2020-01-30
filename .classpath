@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="java/|SWEA/|jungol/|java-algo/" kind="src" path=""/>
+	<classpathentry kind="src" path="java"/>
+	<classpathentry kind="src" path="java-algo"/>
+	<classpathentry kind="src" path="jungol"/>
+	<classpathentry kind="src" path="SWEA"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

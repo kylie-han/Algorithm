@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_539 {
+public class k539_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);//입력받는 메소드
 		int a = 0;

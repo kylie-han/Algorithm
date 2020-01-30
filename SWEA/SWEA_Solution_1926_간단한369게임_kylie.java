@@ -42,7 +42,7 @@ N은 10이상 1,000이하의 정수이다. (10 ≤ N ≤ 1,000)
  */
 import java.util.Scanner;
 
-public class Solution {
+public class SWEA_Solution_1926_간단한369게임_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main_547 {
+public class k547_Main {
 	public static void main(String[] args) {
 		int[][] a = new int[5][5];
 		int s = 2;

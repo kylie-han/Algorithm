@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_2071_평균값구하기_kylie {
+public class SWEA_Solution_2071_평균값구하기_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();

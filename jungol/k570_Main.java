@@ -1,5 +1,5 @@
 
-public class Main_570 {
+public class k570_Main {
 	public static void main(String[] args) {
 		int[][] arr = new int[7][7];
 		for (int i = 1; i < arr[i].length-1; i++) {

@@ -21,7 +21,7 @@ import java.util.Scanner;
 **
 *
  */
-public class Main_634 {
+public class k634_1_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int inData = sc.nextInt();

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_549 {
+public class k549_Main{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int inData = sc.nextInt();

@@ -12,7 +12,7 @@ S B S S W S
 S S S S S S
 
 */
-public class 로봇이동거리 {
+public class P1Robot {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();

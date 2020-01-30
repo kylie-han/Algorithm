@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_553 {
+public class k553_1_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();

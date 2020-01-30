@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 
-public class Main_563 {
+public class k563_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] inData = new int[11];

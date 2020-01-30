@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_557 {
+public class k557_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String str = new String();
