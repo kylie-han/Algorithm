@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_boj_2991_사나운개 {
+public class boj_2991_사나운개_Main {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

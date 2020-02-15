@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_boj_1120_문자열 {
+public class boj_1120_문자열_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String strA = sc.next();
