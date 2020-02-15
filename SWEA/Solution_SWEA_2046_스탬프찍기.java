@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_2046_½ºÅÆÇÁÂï±â {
+public class Solution_SWEA_2046_½ºÅÆÇÁÂï±â {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int inData = sc.nextInt();//ÀÔ·Â°ª

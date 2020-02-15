@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_2047_신문헤드라인_kylie {
+public class Solution_SWEA_2047_신문헤드라인_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next();//문자열 입력

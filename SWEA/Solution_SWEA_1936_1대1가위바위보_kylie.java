@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_1936_1대1가위바위보_kylie {
+public class Solution_SWEA_1936_1대1가위바위보_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_2056_연월일달력_kylie {
+public class Solution_SWEA_2056_연월일달력_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();

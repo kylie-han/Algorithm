@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SWEA_Solution_2063_중간값찾기_D1_한지혜 {
+public class Solution_SWEA_2063_중간값찾기_D1_한지혜 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TN = sc.nextInt();	//들어오는 수의 갯수

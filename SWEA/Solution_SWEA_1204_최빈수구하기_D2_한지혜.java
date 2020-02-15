@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_1204_최빈수구하기_D2_한지혜 {
+public class Solution_SWEA_1204_최빈수구하기_D2_한지혜 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();//입력될 테스트케이스 갯수

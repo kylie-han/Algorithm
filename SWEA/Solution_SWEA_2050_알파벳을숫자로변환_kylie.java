@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_2050_알파벳을숫자로변환_kylie {
+public class Solution_SWEA_2050_알파벳을숫자로변환_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String inData = sc.nextLine();//입력은 문자열

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_1933_간단한N의약수_kylie {
+public class Solution_SWEA_1933_간단한N의약수_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();

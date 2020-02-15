@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class SWEA_Solution_2068_최대수구하기_kylie{
+public class Solution_SWEA_2068_최대수구하기_kylie{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SWEA_Solution_1210_Ladder1_D4_한지혜 {
+public class Solution_SWEA_1210_Ladder1_D4_한지혜 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[][] arr = new int[102][102];	//배열의 크기 : 100,100//체크하기 편하려고 배열의 크기를 여유롭게 잡음

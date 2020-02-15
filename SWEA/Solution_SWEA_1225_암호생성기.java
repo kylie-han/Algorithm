@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SWEA_Solution_1225_암호생성기 {
+public class Solution_SWEA_1225_암호생성기 {
 	public static int front = -1;
 	public static int rear = -1;
 	public static int[] arr = new int[8];

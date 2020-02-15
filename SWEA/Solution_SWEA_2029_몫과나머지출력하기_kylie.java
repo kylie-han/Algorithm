@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_2029_몫과나머지출력하기_kylie {
+public class Solution_SWEA_2029_몫과나머지출력하기_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();

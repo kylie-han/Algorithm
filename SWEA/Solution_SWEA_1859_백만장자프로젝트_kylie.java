@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_1859_백만장자프로젝트_kylie {
+public class Solution_SWEA_1859_백만장자프로젝트_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();

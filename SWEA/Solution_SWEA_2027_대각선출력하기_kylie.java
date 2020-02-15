@@ -1,5 +1,5 @@
 
-public class SWEA_Solution_2027_대각선출력하기_kylie {
+public class Solution_SWEA_2027_대각선출력하기_kylie {
 	public static void main(String[] args) {
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 5; j++) {

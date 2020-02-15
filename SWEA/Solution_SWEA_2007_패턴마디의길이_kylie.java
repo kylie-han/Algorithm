@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_2007_패턴마디의길이_kylie {
+public class Solution_SWEA_2007_패턴마디의길이_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();

@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
-public class SWEA_Solution_1545_거꾸로출력해보아요_kylie {
+public class Solution_SWEA_2019_더블더블_kylie {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int inData = sc.nextInt();
-		for (int i = inData; i >= 0 ; i--) {
-			System.out.print(i+" ");
+		int o = 1;
+		for (int i = 0; i <= inData; i++) {
+			System.out.print(o+" ");
+			o *= 2;
 		}
 	}
 }
