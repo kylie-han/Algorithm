@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution_1233_사칙연산유효성검사_한지혜 {
+public class Solution_SWEA_1233_사칙연산유효성검사_한지혜 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int tc = 10;// testcase는 10개
