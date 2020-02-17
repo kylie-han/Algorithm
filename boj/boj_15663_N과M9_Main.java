@@ -33,13 +33,9 @@ public class boj_15663_N°úM9_Main {
 		for (int i = 0; i < inData.length; i++) {
 			inData[i] = Integer.parseInt(st.nextToken());
 		}
-
 		Arrays.sort(inData);
 		dfs(0);
-
-		br.close();
 		bw.flush();
-		bw.close();
 
 	}// end of main
 
@@ -51,12 +47,19 @@ public class boj_15663_N°úM9_Main {
 			bw.newLine();
 		} else {
 			for (int i = 0; i < inData.length; i++) {
-				if (used[i] || output[depth] == inData[i])
+				if (used[i] || output[depth] == inData[i]) {
 					continue;
-				used[i] = true;
-				output[depth] = inData[i];
-				dfs(depth + 1);
-				used[i] = false;
+				}else {
+					if (output[depth] != inData[i]) {
+						for (int j = depth; j < output.length; j++) {
+							output[j] = 0;
+						}
+					}
+					used[i] = true;
+					output[depth] = inData[i];
+					dfs(depth+1);
+					used[i] = false;
+				}
 			}
 		}
 	}
