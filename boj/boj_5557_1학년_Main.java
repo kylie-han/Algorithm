@@ -22,16 +22,8 @@ public class boj_5557_1ÇĞ³â_Main {
 		dfs(inData,inData[0],0);
 		System.out.println(o);
 	}//end of main
-
-	public static void dfs(int[] inData, int sum, int i) {
-		if(sum>20 || sum <0) return;
-		if(i == inData.length-2) {
-			if(sum == inData[inData.length-1]) {
-				o++;
-			}
-		}else {
-			dfs(inData, sum+inData[i+1], i+1);
-			dfs(inData, sum-inData[i+1], i+1);
-		}
-	}//end of main
+	private static void dfs(int[] inData, int i, int j) {
+		// TODO Auto-generated method stub
+		
+	}
 }//end of class
