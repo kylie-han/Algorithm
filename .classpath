@@ -6,5 +6,7 @@
 	<classpathentry kind="src" path="java-algo"/>
 	<classpathentry kind="src" path="jungol"/>
 	<classpathentry kind="src" path="SWEA"/>
+	<classpathentry kind="src" path="wsjava08_서울_12반_한지혜"/>
+	<classpathentry kind="src" path="hwjava08_서울_12반_한지혜"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
