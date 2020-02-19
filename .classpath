@@ -8,5 +8,12 @@
 	<classpathentry kind="src" path="SWEA"/>
 	<classpathentry kind="src" path="wsjava08_서울_12반_한지혜"/>
 	<classpathentry kind="src" path="hwjava08_서울_12반_한지혜"/>
+	<classpathentry kind="src" path="WS&amp;HW/hwjava05_서울_12반_한지혜"/>
+	<classpathentry kind="src" path="WS&amp;HW/hwjava06_서울_12반_한지혜"/>
+	<classpathentry kind="src" path="WS&amp;HW/hwjava08_서울_12반_한지혜"/>
+	<classpathentry kind="src" path="WS&amp;HW/wsjava05_서울_12반_한지혜"/>
+	<classpathentry kind="src" path="WS&amp;HW/wsjava06_서울_12반_한지혜"/>
+	<classpathentry kind="src" path="WS&amp;HW/wsjava07_서울_12반_한지혜"/>
+	<classpathentry kind="src" path="WS&amp;HW/wsjava08_서울_12반_한지혜"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
