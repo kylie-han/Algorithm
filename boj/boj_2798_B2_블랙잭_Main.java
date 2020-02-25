@@ -10,19 +10,19 @@ public class boj_2798_B2_∫Ì∑¢¿Ë_Main {
 		int N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
 		int[] cardArr = new int[N];
-		for (int i = 0; i < cardArr.length; i++) {
-			st = new StringTokenizer(br.readLine());
-			cardArr[i] = Integer.parseInt(br.readLine());
+		st = new StringTokenizer(br.readLine());
+		for (int i = 0; i < N; i++) {
+			cardArr[i] = Integer.parseInt(st.nextToken());
 		}
 		int max = 0;
-//		for (int i = 0; i < cardArr.length; i++) {
-//			for (int j = i+1; j < cardArr.length; j++) {
-//				for (int k = j+1; k < cardArr.length; k++) {
-//					int sum = cardArr[i] + cardArr[j] + cardArr[k];
-//					if(sum <= M && sum >= max) max = sum;
-//				}
-//			}
-//		}
+		for (int i = 0; i < cardArr.length; i++) {
+			for (int j = i+1; j < cardArr.length; j++) {
+				for (int k = j+1; k < cardArr.length; k++) {
+					int sum = cardArr[i] + cardArr[j] + cardArr[k];
+					if(sum <= M && sum >= max) max = sum;
+				}
+			}
+		}
 		System.out.println(max);
 	}
 }

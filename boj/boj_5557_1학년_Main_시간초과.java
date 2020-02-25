@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
  * @author multicampus
  *
  */
-public class boj_5557_1학년_Main {
+public class boj_5557_1학년_Main_시간초과 {
 	public static long o;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

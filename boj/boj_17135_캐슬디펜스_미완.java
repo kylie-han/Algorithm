@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_17135_캐슬디펜스 {
+public class boj_17135_캐슬디펜스_미완 {
 	static int[][] field;
 	static int n;
 	static int m;
