@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class Gravity {
 	public static void main(String[] args) {//전체화면 단축키 : ctrl + M
