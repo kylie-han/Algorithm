@@ -6,5 +6,7 @@
 	<classpathentry kind="src" path="java-algo"/>
 	<classpathentry kind="src" path="jungol"/>
 	<classpathentry kind="src" path="SWEA"/>
+	<classpathentry kind="src" path="aps_basic"/>
+	<classpathentry kind="src" path="java-aps"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

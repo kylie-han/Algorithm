@@ -5,5 +5,6 @@ public class boj_11654_아스키코드_Main {
 		Scanner sc = new Scanner(System.in);
 		char c = sc.next().charAt(0);
 		System.out.println((int)c);
+		sc.close();
 	}
 }

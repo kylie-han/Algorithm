@@ -54,7 +54,6 @@ public class boj_2178_¹Ì·ÎÅ½»ö_Main {
 				System.out.println(now.step);
 				break;
 			}else if (now.data == '1') {
-				boolean f = false;
 				for (int i = 0; i < rAdd.length; i++) {
 					if (now.r+rAdd[i] >=0 && now.c+cAdd[i] >=0 && now.r+rAdd[i] < n && now.c+cAdd[i] < m &&
 							!visited[now.r+rAdd[i]][now.c+cAdd[i]] && map[now.r+rAdd[i]][now.c+cAdd[i]] == '1') {
@@ -65,5 +64,6 @@ public class boj_2178_¹Ì·ÎÅ½»ö_Main {
 				}
 			}
 		}//end of while
+		
 	}//end of main
 }//end of class

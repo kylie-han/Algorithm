@@ -17,5 +17,6 @@ public class boj_11399_ATM_Main {
 			minSum += sum;
 		}
 		System.out.println(minSum);
+		sc.close();
 	}
 }

@@ -6,7 +6,7 @@ public class boj_1120_문자열_Main {
 		String strA = sc.next();
 		String strB = sc.next();
 		int bcrt = 0;
-		int ans = 0;
+//		int ans = 0;
 		for (int i = 0; i <= strB.length() - strA.length(); i++) {
 			int crt = 0;
 			for (int j = 0; j < strA.length(); j++) {
@@ -16,7 +16,7 @@ public class boj_1120_문자열_Main {
 			}
 			if (crt >= bcrt) {
 				bcrt = crt;
-				ans = i;
+//				ans = i;
 			}
 		}
 //		System.out.println(bcrt);
@@ -28,5 +28,6 @@ public class boj_1120_문자열_Main {
 //			strA = strA+strB.charAt(i);
 //		}
 		System.out.println(strA.length()-bcrt);
+		sc.close();
 	}
 }

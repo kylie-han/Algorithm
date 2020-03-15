@@ -5,9 +5,9 @@ public class k1175_Main {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();//주사위 던지는 횟수
 		int m = sc.nextInt();//원하는 주사위 눈의 합
-		int[] dice = {1,2,3,4,5,6};//주사위의 눈
 		int[] arr = new int[n+1];
 		dice(n,m,arr,1);
+		sc.close();
 	}//end of main
 	public static void dice(int num,int sum, int[] a,int index) {
 		if (num<=0) {//출력

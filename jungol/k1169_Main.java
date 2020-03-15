@@ -5,7 +5,6 @@ public class k1169_Main{
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();//주사위 던질 횟수
 		int m = sc.nextInt();//1or2or3
-		int[] dice = {1,2,3,4,5,6};
 		int[] arr = new int[n+1];//던져나온값저장
 		switch (m) {
 		case 1:
@@ -20,7 +19,7 @@ public class k1169_Main{
 		default:
 			break;
 		}
-		
+		sc.close();
 	}//end of main
 	public static void m1(int num, int[] a,int index) {//num : 넘어온 숫자, a : 값을 저장할 배열, index : 배열의 번지수
 		if (num<=0) {	//재귀 중단시 출력

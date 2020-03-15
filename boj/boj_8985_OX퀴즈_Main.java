@@ -15,6 +15,7 @@ public class boj_8985_OXÄûÁî_Main {
 					cnt = 1;
 			}
 			System.out.println(score);
+			sc.close();
 		}
 	}//end of main
 }//end of class

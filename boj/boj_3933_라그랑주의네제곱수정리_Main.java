@@ -18,7 +18,7 @@ public class boj_3933_라그랑주의네제곱수정리_Main {
 			per(0);
 			System.out.println(cnt);
 		}
-
+		sc.close();
 	}// end of main
 
 	private static void per(int depth) {

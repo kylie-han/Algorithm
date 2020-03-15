@@ -18,5 +18,6 @@ public class boj_2991_사나운개_Main {
 			if(arr[i]%(c+d) <= c && arr[i]%(c+d)!=0) cnt++;
 			System.out.println(cnt);
 		}
+		sc.close();
 	}//end of main
 }//end of class

@@ -17,6 +17,7 @@ public class boj_15650_N°úM2_Main {
 		arr = new int[n+1];
 		used = new boolean[n+1];
 		dfs(0);
+		sc.close();
 	}//end of main
 
 	public static void dfs(int depth) {

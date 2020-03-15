@@ -38,5 +38,6 @@ public class boj_2999_비밀이메일_Main {
 				System.out.print(arr[i][j]);
 			}
 		}
+		sc.close();
 	}// end of main
 }// end of class

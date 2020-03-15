@@ -22,6 +22,7 @@ public class 정올_1863_종교_Main {
 			if(p[i] == i)cnt++; 
 		}
 		System.out.println(cnt);
+		sc.close();
 	}//end of main
 	
 	public static void union(int s1, int s2) {
