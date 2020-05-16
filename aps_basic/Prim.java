@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class PrimTest {
+public class Prim {
 	static boolean[] visited;
 	static int[] key, p;
 

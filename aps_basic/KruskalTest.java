@@ -3,7 +3,24 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
+/**
+최소비용 신장트리 : 모든 정점을 사이클 없이 방문하는데 사용되는 간선의 가중치의 합이 최소가 되는 트리
+풀이법 : 
+1. prim 알고리즘
+	정점선택 기준
+	1) 시작 정점을 mst에 추가한다.
+	2) mst list의 객체에 인접한 정점중 최소 가중치의 간선을 고른다.
+	3) list의 값이 n-1일 경우까지 반복한다. 
 
+2. kruskal 알고리즘
+	각 간선이 사이클을 이루지 않는 선에서 최소의 가중치 합을 고르는것 
+	간선의 가중치 기준
+	greedy algorith(탐욕적)
+	1) 간선들을 가중치 기준으로 오름차순 정렬
+	2) 가중치 작은 것부터 사이클이 생기는지 확인하고 생기면 Pass, 생기지 않으면 mst list에 추가
+ * @author hangj
+ *
+ */
 public class KruskalTest {
 	
 	static int[] parents;

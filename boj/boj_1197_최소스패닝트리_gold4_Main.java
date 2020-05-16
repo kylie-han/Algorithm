@@ -11,7 +11,6 @@ import java.util.StringTokenizer;
  * 인접리스트, BufferedReader, StringTokenizer : 1056ms 
  * 인접행렬, BufferedReader, StringTokenizer : 1288ms
  * 
- * @author hangj
  *
  */
 public class boj_1197_최소스패닝트리_gold4_Main {
