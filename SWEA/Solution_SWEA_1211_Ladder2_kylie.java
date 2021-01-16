@@ -1,5 +1,7 @@
 import java.util.Scanner;
-// 가장 짧은 거리를 찾아야한다는 조건을 놓쳐 fail..
+// 문제를 잘못 이해함.
+// 문제의 요점은 사다리를 타는데 이동한 횟수가 가장 짧은 시작점을 찾는 것.
+// 도착지점의 1들을 모두 파악하여 도착->출발의 횟수를 세고 가장 짧은 것을 찾으면 됨.
 public class Solution_SWEA_1211_Ladder2_kylie {
 	static int[][] map = new int[100][100];
 	static boolean[][] visited;
