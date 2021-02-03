@@ -9,7 +9,7 @@ public class boj_2468_안전영역 {
 	static int flood;
 	static int[][] dirs = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 	static int area = 0;
-	static Queue<dot> q = new LinkedList<dot>();
+	static Queue<AreaDot> q = new LinkedList<AreaDot>();
 	static int max = -1;
 
 	public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class boj_2468_안전영역 {
 //		1. map에서 1만큼 비오면 잠기지 않는곳 확인
 					if (!visited[i][j] && map[i][j] > k) {
 //		2. 안잠긴곳으로 bfs탐색
-						bfs(new dot(i, j), k);
+						bfs(new AreaDot(i, j), k);
 						area++;
 					}
 				}
@@ -48,12 +48,12 @@ public class boj_2468_안전영역 {
 		System.out.println(max);
 	}
 
-	static void bfs(dot d, int k) {
+	static void bfs(AreaDot d, int k) {
 		visited[d.x][d.y] = true;
 		q.add(d);
 
 		while (!q.isEmpty()) {
-			dot t = q.poll();
+			AreaDot t = q.poll();
 			int x = t.x;
 			int y = t.y;
 
@@ -63,18 +63,18 @@ public class boj_2468_안전영역 {
 
 				if (dx >= 0 && dx < N && dy >= 0 && dy < N && map[dx][dy] > k && !visited[dx][dy]) {
 					visited[dx][dy] = true;
-					q.add(new dot(dx, dy));
+					q.add(new AreaDot(dx, dy));
 				}
 			}
 		}
 	}
 }
 
-class dot {
+class AreaDot {
 	int x;
 	int y;
 
-	public dot(int x, int y) {
+	public AreaDot(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
