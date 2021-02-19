@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_1065_한수_silver4_Main {
+public class Boj_1065_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
@@ -30,8 +30,6 @@ public class boj_1065_한수_silver4_Main {
 			arr[i] = n%10;
 			n /=10;
 		}
-		// i = 321 -> arr = {3,2,1}
-//		System.out.println(Arrays.toString(arr));
 		if ( arr[0] == 0 && arr[1] - arr[2] == arr[2] - arr[3]) {
 			return true;
 		}else {

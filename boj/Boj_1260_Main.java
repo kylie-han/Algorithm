@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class boj_1260_dfs¿Íbfs_Main {
+public class Boj_1260_Main{
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -60,20 +60,5 @@ public class boj_1260_dfs¿Íbfs_Main {
 
 			}
 		}
-		return;
 	}
-//	private static void dfs(int[][] arr, boolean[] visited, int n, int v, int i) {
-//		if (i == n) {
-//			return;
-//		} else {
-//			visited[v] = true;
-//			System.out.print(v + " ");
-//			for (int j = 0; j < arr[0].length; j++) {
-//				if (arr[v][j] == 1 && !visited[j]) {
-//					dfs(arr, visited, n, j, i + 1);
-//				}
-//			}
-//		}
-//	}
-
-}// end of class
+}

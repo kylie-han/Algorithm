@@ -17,11 +17,6 @@ import java.util.Scanner;
 public class 동전3개로잔돈만들기 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-//		int dN = sc.nextInt();
-//		int[] Di = new int[dN];
-//		for (int i = 0; i < Di.length; i++) {
-//			Di[i] = sc.nextInt();
-//		}
 		int N = sc.nextInt();
 		// input
 		
@@ -50,5 +45,6 @@ public class 동전3개로잔돈만들기 {
 			}
 		}
 		System.out.println(Arrays.toString(C));
+		sc.close();
 	}
 }
