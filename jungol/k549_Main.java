@@ -13,6 +13,7 @@ public class k549_Main{
 			}
 		}
 		System.out.print(cnt+" "+sum);
+		sc.close();
 	}
 }
 /*

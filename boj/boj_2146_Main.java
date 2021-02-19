@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class boj_2146_Main {
+public class Boj_2146_Main {
 	static int[][] dirs = {{-1,0},{1,0},{0,-1},{0,1}};
 	static int islandIdx,N;
 	static int map[][];
@@ -24,7 +24,7 @@ public class boj_2146_Main {
 				map[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}//input
-		// 1. ¼¶ ±¸º°ÇØÁÖ±â
+		// 1. ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½
 		islandIdx = 2;
 		for (int r = 0; r < N; r++) {
 			for (int c = 0; c < N; c++) {
@@ -37,7 +37,7 @@ public class boj_2146_Main {
 		for(int[] row : map) {
 			System.out.println(Arrays.toString(row));
 		}
-		// 2. °¢ ¼¶¿¡¼­ ´Ù¸¥ ¼¶±îÁöÀÇ ÃÖ´Ü °Å¸® Ã£¾Æº¸±â.
+		// 2. ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½Å¸ï¿½ Ã£ï¿½Æºï¿½ï¿½ï¿½.
 		MinDist = Integer.MAX_VALUE;
 		for (int r = 0; r < N; r++) {
 			for (int c = 0; c < N; c++) {
@@ -55,13 +55,13 @@ public class boj_2146_Main {
 		visited	[row][col] = true;
 		while(!q.isEmpty()) {
 			Point front = q.poll();
-			//============= ÄÚµå Ãß°¡ ==================
+			//============= ï¿½Úµï¿½ ï¿½ß°ï¿½ ==================
 		}
 	}
 	static void bfs(int row, int col) {
 		Queue<Point> q = new LinkedList<>();
 		q.offer(new Point(row, col, islandIdx));
-		// ¹æ¹®Ã³¸®
+		// ï¿½æ¹®Ã³ï¿½ï¿½
 		map[row][col] = islandIdx;
 		while(!q.isEmpty()) {
 			Point p = q.poll();

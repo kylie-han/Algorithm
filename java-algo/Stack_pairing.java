@@ -2,7 +2,6 @@
 public class Stack_pairing {
 	public static void main(String[] args) {
 		String str1 = "()()((()))";
-		String str2 = "((()((((()()((()())((())))))";
 		
 		char[] crr = new char[100];
 		int top = -1;

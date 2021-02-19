@@ -14,5 +14,6 @@ public class Solution3 {
 			}
 			System.out.println("#"+testCase+" "+num);
 		}
+		sc.close();
 	}
 }

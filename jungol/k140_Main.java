@@ -11,6 +11,7 @@ public class k140_Main {
 			cnt++;
 			sum += num;
 		}
-		System.out.println(sum + " " + sum/cnt);
+		if(cnt != 0) System.out.println(sum + " " + sum/cnt);
+		sc.close();
 	}
 }

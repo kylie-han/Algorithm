@@ -14,5 +14,6 @@ public class Solution2 {
 			System.out.println(5/2);
 			
 		}
+		sc.close();
 	}
 }

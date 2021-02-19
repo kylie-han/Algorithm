@@ -12,6 +12,6 @@ public class k553_Main {
 			}
 			System.out.println();
 		}	
-		
+		sc.close();
 	}//end of main
 }//end of class

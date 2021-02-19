@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-//public class boj_10818_√÷º“√÷¥Î_Main {
+//public class boj_10818_ÔøΩ÷ºÔøΩÔøΩ÷¥ÔøΩ_Main {
 //	public static void main(String[] args) throws IOException {
 //		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
@@ -21,7 +21,7 @@ import java.util.StringTokenizer;
 //		System.out.println(min + " " + max);
 //	}//end of main
 //}//end of class
-public class boj_10818_√÷º“√÷¥Î_Main {
+public class boj_10818_Main {
 	static BufferedReader br;
 	static StringTokenizer st;
 	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

@@ -27,7 +27,7 @@ public class bfs_0128 {
 
 		visited = new boolean[arr.length];
 		bfs(arr, visited, V);
-
+		sc.close();
 	}// end of main
 
 	private static void bfs(int[][] arr, boolean[] visited, int v) {

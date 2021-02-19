@@ -18,6 +18,7 @@ public class k553_1_Main {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }
 //3

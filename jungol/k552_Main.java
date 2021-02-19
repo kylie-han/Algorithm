@@ -12,6 +12,7 @@ public class k552_Main {
 				System.out.print("*");
 			}
 			System.out.println();
-		}	
+		}
+		sc.close();
 	}//end of main
 }//end of class

@@ -16,6 +16,7 @@ public class k550_Main {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 
 }

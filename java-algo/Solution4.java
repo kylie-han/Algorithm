@@ -12,6 +12,7 @@ public class Solution4 {
            }
            System.out.println("#"+testCase+" "+num);
        }
+       sc.close();
    }
 }
 //import java.util.Scanner;

@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class boj_1992_Main {
+public class Boj_1992_Main {
 	static int N;
 	static int[][] arr;
 	static StringBuilder sb = new StringBuilder();

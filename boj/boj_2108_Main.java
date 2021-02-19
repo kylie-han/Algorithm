@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class boj_2108_Main {
+public class Boj_2108_Main {
 	static int N,sum,avg,mid,mod,range;
 	static int[] arr;
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class boj_2108_Main {
 		sum = 0;
 		int max = Integer.MIN_VALUE;
 		int min = Integer.MAX_VALUE;
-		// ÀÔ·Â, Æò±Õ
+		// ï¿½Ô·ï¿½, ï¿½ï¿½ï¿½
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = sc.nextInt();
 			sum+= arr[i];
@@ -21,10 +21,10 @@ public class boj_2108_Main {
 		avg = Math.round((float)sum/N);
 		System.out.println(avg);
 		Arrays.sort(arr);
-		// Áß¾Ó°ª
+		// ï¿½ß¾Ó°ï¿½
 		mid = arr[N/2];
 		System.out.println(mid);
-		// ÃÖºó°ª
+		// ï¿½Öºï¿½
 		int[] cnt = new int[max-min+1];
 		for (int i = 0; i < arr.length; i++) {
 			cnt[arr[i]-min]++;
@@ -41,7 +41,7 @@ public class boj_2108_Main {
 		}
 		mod += min;
 		System.out.println(mod);
-		// ¹üÀ§
+		// ï¿½ï¿½ï¿½ï¿½
 		range = max-min;
 		System.out.println(range);
 		sc.close();

@@ -10,5 +10,6 @@ public class k141_Main {
 			System.out.print(outData + " ");
 			if(outData%10 == 0) break;
 		}
+		sc.close();
 	}
 }

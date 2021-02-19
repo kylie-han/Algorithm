@@ -12,5 +12,6 @@ public class Z04_Input {
 		System.out.println(name+"님 몇살이에요?");
 		int age = sc.nextInt();//int 리턴
 		System.out.println(age + "살 입니다");
+		sc.close();
 	}//end of main
 }//end of class

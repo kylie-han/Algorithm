@@ -27,6 +27,7 @@ public class daily_0130 {
 		Arrays.sort(arr);
 		System.out.println(Arrays.toString(arr));
 		perm(0,0,M);
+		sc.close();
 	}
 	private static void perm(int i, int p, int m) {
 		if(i >= m) {

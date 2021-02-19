@@ -14,8 +14,6 @@ public class Z03_Array {
 		int[] b = new int [3];
 		b[0] = 9;
 		
-		int[] c = {6,7,8};
-	
 		int[] d = new int [] {6,7,8};	//배열 변수의 선언, 객체생성, 초기화를 한번에
 		
 		System.out.println(d[0]*d[1]*d[2]);

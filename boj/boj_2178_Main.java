@@ -23,7 +23,7 @@ class Now {
 		return "Now [r=" + r + ", c=" + c + ", data=" + data + ", step=" + step + "]";
 	}
 }
-public class boj_2178_Main {
+public class Boj_2178_Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -40,7 +40,7 @@ public class boj_2178_Main {
 //			}
 //			System.out.println();
 //		}
-		/////////////////////ют╥б///////////////////////////////
+		/////////////////////О©╫т╥О©╫///////////////////////////////
 		int[] rAdd = {-1, 1, 0, 0};
 		int[] cAdd = {0, 0, -1, 1};
 		boolean[][] visited = new boolean[n][m];

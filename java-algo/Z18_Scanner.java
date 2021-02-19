@@ -22,5 +22,6 @@ public class Z18_Scanner {
 		System.out.println("¿Ã∏ß¿∫ ππ¥œ");
 		String name = sc.nextLine();
 		System.out.println(name + "æ»≥Á");
+		sc.close();
 	}//end of main
 }//end of class

@@ -12,7 +12,10 @@ public class k539_Main {
 			cnt++;
 		}
 		System.out.println(sum);
-		System.out.println(String.format("%.1f", ((float)sum/cnt)));//14.15의 1째까지 반올림하기 위해 format 사용
-		System.out.printf("%.1f",((float)sum/cnt));
+		if(cnt != 0){
+			System.out.println(String.format("%.1f", ((float)sum/cnt)));//14.15의 1째까지 반올림하기 위해 format 사용
+			System.out.printf("%.1f",((float)sum/cnt));
+		}
+		sc.close();
 	}//main
 }//class
