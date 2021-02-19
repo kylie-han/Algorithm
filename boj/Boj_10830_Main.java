@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_10830_Main {
+public class Boj_10830_Main {
     static int MOD = 1000, N;
     static int[][] unitMatrix;
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_11047_Main {
+public class Boj_11047_Main {
 	static int N,price,cnt;
 	static int[] coins;
 	public static void main(String[] args) {
