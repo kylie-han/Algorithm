@@ -23,7 +23,7 @@ class Now {
 		return "Now [r=" + r + ", c=" + c + ", data=" + data + ", step=" + step + "]";
 	}
 }
-public class boj_2178_¹Ì·ÎÅ½»ö_Main {
+public class boj_2178_Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());

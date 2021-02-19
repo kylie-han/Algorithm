@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_2231_ºÐÇØÇÕ_bronze2_Main {
+public class boj_2231_Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
