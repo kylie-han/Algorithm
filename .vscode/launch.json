@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Boj_11049_Main",
+            "request": "launch",
+            "mainClass": "Boj_11049_Main",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boj_11066_Main",
+            "request": "launch",
+            "mainClass": "Boj_11066_Main",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boj_1655_Main",
+            "request": "launch",
+            "mainClass": "Boj_1655_Main",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boj_11286_Main",
+            "request": "launch",
+            "mainClass": "Boj_11286_Main",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
