@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class boj_1932_Main {
+public class Boj_1932_Main {
 	static int N;
 	static int[][] tri;
 	public static void main(String[] args) throws NumberFormatException, IOException {
