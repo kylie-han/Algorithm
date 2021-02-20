@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_2231_kylie_Main {
+public class Boj_2231_kylie_Main {
 	static int N, ans;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

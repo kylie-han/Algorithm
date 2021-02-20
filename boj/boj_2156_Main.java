@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class boj_2156_Main {
+public class Boj_2156_Main {
 	static int N, ans;
 	static int[] wine, memo;
 
