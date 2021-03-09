@@ -5,7 +5,7 @@ import java.util.Arrays;
  * 
  *
  */
-public class Z34_1_Dijkstra_이해하고넘어가기 {
+public class Z34_1_Dijkstra {
 	public static void main(String[] args) {
 		final int M = Integer.MAX_VALUE;
 		int[][] G = { // A : 인접행렬
