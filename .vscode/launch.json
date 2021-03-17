@@ -4,6 +4,56 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch Boj_14889_Main",
+            "request": "launch",
+            "mainClass": "Boj_14889_Main",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boj_14499_Main",
+            "request": "launch",
+            "mainClass": "Boj_14499_Main",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boj_14500_Main",
+            "request": "launch",
+            "mainClass": "Boj_14500_Main",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pgms_taxi",
+            "request": "launch",
+            "mainClass": "Pgms_taxi",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pgms_newid",
+            "request": "launch",
+            "mainClass": "Pgms_newid",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boj_1806_Main",
+            "request": "launch",
+            "mainClass": "Boj_1806_Main",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boj_3273_Main",
+            "request": "launch",
+            "mainClass": "Boj_3273_Main",
+            "projectName": "repo"
+        },
         {
             "type": "java",
             "name": "Launch Boj_11049_Main",

@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="SWEA"/>
 	<classpathentry kind="src" path="aps_basic"/>
 	<classpathentry kind="src" path="daily"/>
+	<classpathentry kind="src" path="Programmers"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
