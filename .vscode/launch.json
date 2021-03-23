@@ -4,7 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch Line_2_1",
+            "request": "launch",
+            "mainClass": "Line_2_1",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Line_2",
+            "request": "launch",
+            "mainClass": "Line_2",
+            "projectName": "repo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Boj_14501_Main",
+            "request": "launch",
+            "mainClass": "Boj_14501_Main",
+            "projectName": "repo"
+        },
         {
             "type": "java",
             "name": "Launch Boj_14889_Main",
